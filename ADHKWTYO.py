@@ -19,7 +19,7 @@ def getMyPosition(prcSoFar):
 
     nins, nt = prcSoFar.shape
 
-    lookback = 100
+    lookback = 80
     if nt <= lookback:
         currentPos = np.zeros(nins, dtype=int)
         return currentPos
